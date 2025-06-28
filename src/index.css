@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+nav .active{
+    color: #4B29CF;
+}
+html {
+    scroll-behavior: smooth;
+  }

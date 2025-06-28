@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "JobFinder",
+      "image": "https://i.postimg.cc/7hsyCrB9/Screenshot-235.png",
+      "techStack": [
+        "React",
+        "Firebase",
+        "React Router",
+        "Tailwind CSS",
+        "Framer Motion",
+        "React Helmet Async",
+        "React Icons",
+        "React Toastify",
+        "Swiper",
+        "React CountUp",
+        "React Fast Marquee"
+      ],
+      "description": "JobFinder is an innovative and user-friendly job tracking platform that helps job seekers explore a wide variety of job opportunities across multiple companies.",
+      "liveLink": "https://jobfinder2.netlify.app/",
+      "githubClientRepo": "https://github.com/JanayedHossain/job-finder",
+      "challenges": "Handling authentication flows smoothly, integrating multiple third-party libraries, and ensuring responsive design across devices.",
+      "futurePlans": "Add employer dashboard, implement advanced search filters, and integrate real-time notifications."
+    },
+    {
+      "id": 2,
+      "name": "RoommateFinder",
+      "image": "https://i.postimg.cc/z3ZVcWr4/Screenshot-234.png",
+      "techStack": [
+        "React 19",
+        "Vite",
+        "Firebase Authentication",
+        "MongoDB",
+        "React Router DOM v7",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Icons",
+        "React Toastify",
+        "SweetAlert2",
+        "Swiper"
+      ],
+      "description": "Roommate Finder is a platform that helps users find compatible roommates based on location, budget, lifestyle preferences, and interests. Users can create profiles, browse listings, add their own posts, and connect with potential roommates.",
+      "liveLink": "https://roommatefinder0.netlify.app/",
+      "githubClientRepo": "https://github.com/JanayedHossain/roommate-finder/tree/main/Roommate-Finder-Client",
+      "challenges": "Managing user authentication with protected routes, implementing dynamic like functionality with restrictions, and integrating various UI animation libraries.",
+      "futurePlans": "Add advanced roommate matching algorithms, implement chat functionality, and improve UI with more interactive animations."
+    },
+    {
+      "id": 3,
+      "name": "FixHut",
+      "image": "https://i.postimg.cc/Zn0RRHTG/Screenshot-233.png",
+      "techStack": [
+        "React 19",
+        "Firebase Authentication",
+        "JWT",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router v7",
+        "Axios",
+        "Framer Motion",
+        "AOS",
+        "React Toastify",
+        "SweetAlert2",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "description": "FixHut is a service-sharing web application designed to allow users to add, update, and delete their own services, browse services shared by others, book services, and manage the status of booked services. The platform focuses on a user-friendly experience with features for service management, booking, and real-time status updates.",
+      "liveLink": "https://fixhut.netlify.app",
+      "githubClientRepo": "https://github.com/JanayedHossain/fixhut",
+      "challenges": "Implementing JWT-secured private routes, managing real-time booking status updates, and integrating multiple third-party libraries for smooth animations and notifications.",
+      "futurePlans": "Enhance search system with advanced filters, implement service provider dashboards, and add multi-language support."
+    }
+  ]
+}
