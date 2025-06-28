@@ -21,7 +21,6 @@ const ProjectDetails = () => {
           <div className="flex justify-end pb-4" onClick={()=>navigate('/')}>
             <RxCross1 size={25} className="cursor-pointer"/>
           </div>
-          {/* Image */}
           <div className="rounded-lg overflow-hidden mb-8">
             <img
               src={project.image}
@@ -30,7 +29,7 @@ const ProjectDetails = () => {
             />
           </div>
 
-          {/* Title & Description */}
+         
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
             {project.name}
           </h2>
@@ -38,7 +37,7 @@ const ProjectDetails = () => {
             {project.description}
           </p>
 
-          {/* Tech Stack */}
+       
           <div className="mb-6">
             <h3 className="text-xl font-semibold mb-2 text-secondary">
               🛠️ Technology Stack:
@@ -55,7 +54,7 @@ const ProjectDetails = () => {
             </div>
           </div>
 
-          {/* Challenges */}
+      
           <div className="mb-6">
             <h3 className="text-xl font-semibold text-secondary mb-2">
               🚧 Challenges Faced:
@@ -65,7 +64,7 @@ const ProjectDetails = () => {
             </p>
           </div>
 
-          {/* Future Plans */}
+        
           <div className="mb-6">
             <h3 className="text-xl font-semibold text-secondary mb-2">
               🔮 Future Plans:
@@ -75,7 +74,7 @@ const ProjectDetails = () => {
             </p>
           </div>
 
-          {/* Buttons */}
+        
           <div className="flex flex-wrap gap-4 mt-8">
             <a
               href={project.liveLink}

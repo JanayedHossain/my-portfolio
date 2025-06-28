@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="py-16 scroll-mt-16" id="about">
       <div className="w-[90%] mx-auto flex flex-col-reverse lg:flex-row items-center gap-10">
-        {/* Text Section */}
+        
         <div className="lg:w-1/2">
           <h2 className="text-2xl sm:text-3xl font-semibold mb-6 border-b border-gray-300 pb-2">
             About Me
@@ -31,7 +31,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* Lottie Animation */}
+     
         <div className="lg:w-1/2">
           <Lottie
             animationData={animationData}

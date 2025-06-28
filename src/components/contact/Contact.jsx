@@ -9,17 +9,17 @@ const Contact = () => {
   const handleSend = (e) => {
     e.preventDefault();
 
-    // Email format check
+    
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email) || message.trim() === "") {
       toast.error("Please enter a valid email and message!");
       return;
     }
 
-    // Show success toast
+ 
     toast.success("✅ Message Sent!");
 
-    // Optional: Reset form
+   
     setEmail("");
     setMessage("");
   };
@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-base-200 py-16 px-4 scroll-mt-16">
       <div className=" grid w-[90%] mx-auto md:grid-cols-2 gap-10 items-center">
-        {/* Left - Contact Info */}
+      
         <div>
           <h2 className="text-3xl font-bold mb-6 text-primary">
             📞 Get In Touch
@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right - Form */}
+       
         <div>
           <h2 className="text-2xl font-semibold mb-4 text-secondary">
             💬 Send Me a Message

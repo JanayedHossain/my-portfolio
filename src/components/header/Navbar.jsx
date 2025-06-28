@@ -50,12 +50,12 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* Navbar Center - Desktop Menu */}
+    
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
 
-      {/* Navbar End - Resume Download */}
+     
       <div className="navbar-end">
         <a href={resume} download className="btn btn-primary btn-sm">
           Download Resume

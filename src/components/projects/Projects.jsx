@@ -5,10 +5,8 @@ const Projects = ({ fetchProjects }) => {
   const projects = use(fetchProjects);
 
     return (
-      <div className="w-[90%] mx-auto pb-16" id="projects">
-        <h2 className="text-2xl sm:text-3xl font-semibold ">
-          Projects
-        </h2>
+      <div className="w-[90%] mx-auto pb-16 scroll-mt-16" id="projects">
+        <h2 className="text-2xl sm:text-3xl font-semibold ">Projects</h2>
         <hr className="border-gray-300 mt-3 mb-10" />
         <div className="py-4 grid grid-cols-1 md:grid-cols-3 gap-4">
           {projects.projects.map((p) => (

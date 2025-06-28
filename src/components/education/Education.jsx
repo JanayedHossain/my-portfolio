@@ -6,7 +6,7 @@ const Education = () => {
       <h2 className="text-2xl sm:text-3xl font-semibold ">Educational Qualification</h2>
       <hr className="border-gray-300 mt-3 mb-10" />
       <div className="space-y-8">
-        {/* Diploma */}
+       
         <div className="flex items-center justify-center gap-6 p-6 rounded-2xl bg-base-100 dark:bg-base-300 shadow-md hover:shadow-lg transition-shadow duration-300">
           <FaGraduationCap className="text-5xl text-secondary" />
           <div>
@@ -19,7 +19,7 @@ const Education = () => {
           </div>
         </div>
 
-        {/* SSC */}
+       
         <div className="flex items-center justify-center gap-6 p-6 rounded-2xl bg-base-100  shadow-md hover:shadow-lg transition-shadow duration-300">
           <FaSchool className="text-5xl text-secondary" />
           <div>
